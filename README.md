@@ -5,9 +5,9 @@ Estandarización de la cinemática y control de diferentes formas de movimiento.
 ## - Motor paso-a-paso
 Controlar un motor paso a paso.
 
-### ArduinoController [arduino_controller/arduino_controller.ino]
+### ArduinoController (arduino_controller/arduino_controller.ino)
 El controlador de Arduino recibe el número de pasos que debe dar y cuando los realiza escribe por `Serial`: "done".
-### PythonController [arduino_controller/python_controller.py]
+### PythonController (arduino_controller/python_controller.py)
 Módulo encargado de la comunicación vía `Serial` con el arduino.
 
 ```python
@@ -18,4 +18,4 @@ arduino.close() # Cerrar conexión
 
 
 
-### StepsMotor [steps_motor.py]
+### StepsMotor (steps_motor.py)
